@@ -1,0 +1,466 @@
+h1, h2, h3, li, ul, p, a, img{
+   margin: 0;
+   padding: 0;
+}
+a{
+   line-height: 0;
+}
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+ }
+.container{
+   width: 480px;
+   margin: 0 auto;
+   padding: 0 20px;
+
+}
+.overflow{
+   overflow: hidden;
+}
+
+
+
+
+.hero {
+   width: 480px;
+   margin: 0 auto;
+   background-image: url(../img/fon3.avif);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.hero-top-image {
+   display: block;
+   margin: 0 auto;
+   margin-bottom: 70px;
+}
+.hero-title-thumb {
+   margin-bottom: 100px;
+}
+.hero-title-decor {
+   margin: 0 auto;
+   width: 300px;
+
+   text-align: center;
+   text-transform: uppercase;
+   font-family: "Instrument Serif", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 30px;
+   color: #ccbe9f;
+}
+.overline{
+   border-top: 1px solid #ccbe9f;
+   padding-top: 10px;
+}
+.underline{
+   border-bottom: 1px solid #ccbe9f;
+   padding-bottom: 10px;
+}
+.hero-title {
+   text-align: center;
+   font-family: "Ribeye Marrow", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 80px;
+   line-height: 0.9em;
+}
+.D{
+   color: #807464
+}
+.a {
+   color: #6d8392;
+}
+.v {
+   color: #727b64;
+}
+.i {
+   color: #808080;
+}
+.d {
+   color: #ccbe9f;
+}
+.hero-subtitle {
+   text-align: center;
+   font-family: "Great Vibes", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 60px;
+   color: #727b64;
+}
+.hero-bottom-image {
+   display: block;
+   margin: 0 auto;
+}
+
+
+.invitation {
+   width: 480px;
+   margin: 0 auto;
+   background-image: url(../img/fon3.avif);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.invitation-line {
+   display: block;
+}
+.first{
+   margin-bottom: 100px;
+}
+.flags{
+   display: block;
+   margin-bottom: 50px;
+}
+.invitation-thumb {
+   position: relative;
+   width: 420px;
+   margin: 0 auto;
+   margin-bottom: 100px;
+   background-color: #e5decf;
+   border-radius: 20px;
+   padding: 40px;
+}
+.invitation-text {
+   text-align: center;
+   font-family: "Great Vibes", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 37px;
+   color: #727b64;
+}
+.invitation-image{
+   display: block;
+}
+.left{
+   position: absolute;
+   top: 85px;
+   left: -15px;
+}
+.right{
+   position: absolute;
+   top: 130px;
+   right: -15px;
+   transform: scaleX(-1);
+}
+
+
+.invitation-title {
+   text-align: center;
+   font-family: "Ribeye Marrow", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 60px;
+   margin-bottom: 50px;
+}
+.invitation-d {
+   color: #807464
+}
+.invitation-a {
+   color: #6d8392;
+}
+.invitation-t {
+   color: #727b64;
+}
+.invitation-e {
+   color: #808080;
+}
+
+.invitation-date-thumb {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 420px;
+   margin: 0 auto;
+   margin-bottom: 20px;
+}
+.date-day, .date-time {
+   text-align: center;
+   text-transform: uppercase;
+   font-family: "Instrument Serif", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 30px;
+   color: #ccbe9f;
+
+   width: 150px;
+   border-top: 1px solid #ccbe9f;
+   border-bottom: 1px solid #ccbe9f;
+   padding: 10px 15px;
+}
+.date-image {
+   display: block;
+}
+.invitation-trees {
+   display: block;
+   padding-bottom: 20px;
+}
+
+
+
+
+.location {
+   width: 480px;
+   margin: 0 auto;
+   background-image: url(../img/fon3.avif);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.location-title {
+   text-align: center;
+   font-family: "Ribeye Marrow", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 60px;
+
+   margin-top: 150px;
+   margin-bottom: 50px;
+}
+.location-l {
+   color: #807464
+}
+.location-o {
+   color: #6d8392;
+}
+.location-c {
+   color: #727b64;
+}
+.location-a {
+   color: #808080;
+}
+.location-t {
+   color: #ccbe9f;
+}
+.location-i {
+   color: #727b64;
+}
+.location-n {
+   color: #807464
+}
+.location-text {
+   text-align: center;
+   text-transform: uppercase;
+   font-family: "Instrument Serif", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 30px;
+   color: #727b64;
+
+   margin-bottom: 20px;
+}
+.location-button {
+   display: block;
+   margin: 0 auto;
+   width: 250px;
+   text-decoration: none;
+   padding: 30px 15px;
+   background-color: #e5decf;
+   border-radius: 10px;
+
+   text-align: center;
+   font-family: "Great Vibes", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 37px;
+   color: #807464;
+}
+.location-image {
+   display: block;
+}
+
+
+
+
+
+.dresscode {
+   width: 480px;
+   margin: 0 auto;
+   background-image: url(../img/fon3.avif);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.dresscode-title {
+   text-align: center;
+   font-family: "Ribeye Marrow", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 60px;
+
+   margin-top: 150px;
+   margin-bottom: 50px;
+}
+.dresscode-d {
+   color: #807464
+}
+.dresscode-r {
+   color: #6d8392;
+}
+.dresscode-e {
+   color: #727b64;
+}
+.dresscode-s {
+   color: #808080;
+}
+.dresscode-c {
+   color: #ccbe9f;
+}
+.dresscode-o {
+   color: #727b64;
+}
+.dresscode-text {
+   text-align: center;
+   font-family: "Great Vibes", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 37px;
+   color: #727b64;
+}
+
+.dresscode-list {
+   display: flex;
+   flex-wrap: wrap;
+}
+.dresscode-item {
+   list-style-type: none;
+   width: 96px;
+   height: 200px;
+}
+.dresscode-item:nth-child(1){
+   background-color: #807464;
+}
+.dresscode-item:nth-child(2){
+   background-color: #6d8392;
+}
+.dresscode-item:nth-child(3){
+   background-color: #727b64;
+}
+.dresscode-item:nth-child(4){
+   background-color: #808080;
+}
+.dresscode-item:nth-child(5){
+   background-color: #ccbe9f;
+}
+
+
+
+.registration {
+   width: 480px;
+   margin: 0 auto;
+   padding-bottom: 80px;
+   background-image: url(../img/fon3.avif);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.registration-text {
+   text-align: center;
+   font-family: "Great Vibes", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 40px;
+   color: #727b64;
+
+   margin-top: 100px;
+   margin-bottom: 20px;
+}
+.registration-form {
+   width: 420px;
+   margin: 0 auto;
+}
+.form-field {
+   margin-bottom: 15px;
+}
+.form-input {
+   width: 100%;
+   height: 50px;
+   font-size: 20px;
+   border: 2px solid #727b64;
+   border-radius: 8px;
+   padding: 2px 15px;
+   outline: none;
+}
+.form-input::placeholder{
+   font-family: "Great Vibes", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 30px;
+   color: #727b64;
+}
+.checkbox-label {
+   display: flex;
+   align-items: center;
+   margin-bottom: 15px;
+
+   font-family: "Great Vibes", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 30px;
+   color: #727b64;
+}
+.checkbox-input:checked + .custom-checkbox > .checkbox-icon{
+   display: block;
+}
+.custom-checkbox{
+   position: relative;
+   display: block;
+   width: 30px;
+   height: 30px;
+   border: 2px solid #727b64;
+   border-radius: 4px;
+   margin-right: 15px;
+}
+.checkbox-icon{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: none;
+   width: 15px;
+   height: 15px;
+   background-color: #727b64;
+   border-radius: 2px;
+}
+
+.registration-btn {
+   text-align: center;
+   font-family: "Great Vibes", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 30px;
+   color: white;
+
+   width: 100%;
+   height: 50px;
+   border: 2px solid #727b64;
+   border-radius: 4px;
+   background-color: #727b64;
+}
+
+
+footer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   width: 480px;
+   height: 50px;
+   margin: 0 auto;
+   background-color: #807464;
+}
+.footer-text {
+   font-family: "Poiret One", serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 15px;
+   color: white;
+   text-align: center;
+   margin-right: 15px;
+}
+
