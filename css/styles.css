@@ -41,10 +41,10 @@ a{
 .hero-top-image {
    display: block;
    margin: 0 auto;
-   margin-bottom: 70px;
+   margin-bottom: 120px;
 }
 .hero-title-thumb {
-   margin-bottom: 100px;
+   margin-bottom: 130px;
 }
 .hero-title-decor {
    margin: 0 auto;
@@ -124,7 +124,7 @@ a{
    position: relative;
    width: 420px;
    margin: 0 auto;
-   margin-bottom: 100px;
+   margin-bottom: 200px;
    background-color: #e5decf;
    border-radius: 20px;
    padding: 40px;
